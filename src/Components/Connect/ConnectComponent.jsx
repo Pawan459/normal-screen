@@ -37,7 +37,6 @@ export default function ConnectComponent() {
   const renderUsersAvailable = currData => {
     if (!currData) return null;
     return currData.map((user, index) => <UserDetailComponent key= {index} user={user}/>)
-    return null;
   }
 
   return (

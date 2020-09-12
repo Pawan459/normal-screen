@@ -2,6 +2,7 @@
   width: 100%;
   display: flex;
   justify-content: space-between;
+  margin-bottom: 8%;
   *{
     margin: 0;
     padding: 0;
@@ -12,5 +13,9 @@
     font-size: 1.7rem;
     text-transform: uppercase;
     font-weight: bold;
+  }
+
+  img{
+    height: 45px;
   }
 }

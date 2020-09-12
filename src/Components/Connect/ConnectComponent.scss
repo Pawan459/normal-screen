@@ -1,7 +1,7 @@
 .connect-component{
   flex: 1;
   min-height: 100vh;
-  padding: 5%;
+  padding: 2% 5%;
   background: #EAF2F9;
   border-radius: 50px 0px 0px 50px;
 
@@ -17,7 +17,7 @@
 
     .search-icon{
       position: absolute;
-      right: 8%;
+      right: 5%;
       top: 13px;
       color: #1FAD9C;
       font-size: 1.3rem;
@@ -26,6 +26,7 @@
 
   .dropdown-menu{
     width: 40%;
+    margin: 5% 0 8% 0;
     
     select{
       width: 100%;

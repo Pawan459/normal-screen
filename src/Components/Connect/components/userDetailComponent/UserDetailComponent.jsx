@@ -2,6 +2,9 @@ import React from "react";
 import { X_STREAM, VIDEO_CALL, END_CALL } from "../../../../Assets";
 
 
+// SCSS of components
+import './UserDetailComponent.scss';
+
 
 export default function UserDetailComponent({user}) {
   return (
