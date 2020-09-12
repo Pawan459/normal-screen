@@ -1,0 +1,44 @@
+.connect-component{
+  flex: 1;
+  min-height: 100vh;
+  padding: 5%;
+  background: #EAF2F9;
+  border-radius: 50px 0px 0px 50px;
+
+  .search{
+    position: relative;
+    input{
+      min-width: 80ch;
+      border-radius: 30px;
+      padding: 15px;
+      outline: none;
+      border: 1px solid #898989;
+    }
+
+    .search-icon{
+      position: absolute;
+      right: 8%;
+      top: 13px;
+      color: #1FAD9C;
+      font-size: 1.3rem;
+    }
+  }
+
+  .dropdown-menu{
+    width: 40%;
+    
+    select{
+      width: 100%;
+      padding: 20px 10px;
+      border: 1px solid #707070;
+      border-radius: 10px;
+      outline: none;
+      font-size: 1rem;
+      color: #222831;
+
+      option{
+        color: black;
+      }
+    }
+  }
+}
