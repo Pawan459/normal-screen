@@ -7,10 +7,11 @@
 
   .search{
     position: relative;
+    width: 75%;
     input{
-      min-width: 80ch;
+      width: 100%;
       border-radius: 30px;
-      padding: 15px;
+      padding: 15px 45px 15px 15px;
       outline: none;
       border: 1px solid #898989;
     }
