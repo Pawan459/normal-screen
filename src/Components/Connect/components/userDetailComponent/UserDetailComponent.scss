@@ -9,7 +9,7 @@
     height: 13px;
     border-radius: 50%;
     align-self: flex-start;
-    margin: 0.8% 2%;
+    margin: 0.8% 2% 0.8% 0;
 
     &.online {
       background: #7ac943;
@@ -41,8 +41,8 @@
     display: flex;
     align-self: flex-start;
     img {
-      height: 45px;
-      padding: 2%;
+      height: 40px;
+      
     }
   }
 }

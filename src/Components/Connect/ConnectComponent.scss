@@ -1,7 +1,7 @@
 .connect-component{
   width: 43.4%;
   height: 100vh;
-  padding: 2.1vh 4.4vw 2.1vh 9vw;
+  padding: 2.1vh 3vw 2.1vh 4.24vw;
   background: #EAF2F9;
   border-radius: 50px 0px 0px 50px;
 
@@ -10,30 +10,32 @@
     width: 100%;
     input{
       width: 100%;
-      border-radius: 30px;
-      padding: 15px 45px 15px 15px;
+      background: transparent;
+      border-radius: 3vw;
+      padding: 1.7vh 2.6vw 1.7vh 1.32vw;
       outline: none;
       border: 1px solid #898989;
     }
 
     .search-icon{
       position: absolute;
-      right: 5%;
-      top: 13px;
+      right: 1vw;
+      top: 1.5vh;
       color: #1FAD9C;
       font-size: 1.3rem;
     }
   }
 
   .dropdown-menu{
-    width: 47%;
-    margin: 5% 0 8% 0;
+    width: 20.38vw;
+    min-height: 8.4vh;
+    margin: 3.43vh 0 5.65vh 0;
     
     select{
       width: 100%;
-      padding: 20px 10px;
+      padding: 2.3vh 1.32vw;
       border: 1px solid #707070;
-      border-radius: 10px;
+      border-radius: 1vh;
       outline: none;
       font-size: 1rem;
       color: #222831;
@@ -42,5 +44,10 @@
         color: black;
       }
     }
+  }
+
+  .scrollable-content{
+    overflow-y: scroll;
+    height: 45vh;
   }
 }
