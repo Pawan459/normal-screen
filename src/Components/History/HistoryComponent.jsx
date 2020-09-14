@@ -62,7 +62,9 @@ export default function HistoryComponent() {
         <h3>History</h3>
         <img className="profile-logo" src={PROFILE_LOGO} alt="PROFILE LOGO" />
       </Header>
+      <div className="scrollable-content">
       {renderCallHistory(data)}
+      </div>
     </div>
   );
 }

@@ -1,10 +1,10 @@
 .user-call-history-component{
   display: flex;
-  margin: 3% 0;
+  padding: 3.6vh 0;
   border-bottom: 1px solid #E5E5E5;
 
   &:first-of-type{
-    margin-top: 0;
+    padding-top: 0;
   }
   font-size: 1rem;
   *{
@@ -21,24 +21,20 @@
   .group-1, .group-2
   {
     display: flex;
-    justify-content: space-between;
-    margin-bottom: 3%;
   }
 
   .group-1{
-    min-width: 35%;
     img{
       height: 30px;
-    }
-
-    .details{
-      min-width: 135px;
+      margin-right: 2.3vw;
     }
   }
 
   .group-2{
-    min-width: 50%;
-    align-items: flex-end;
+    width: 24.5vw;
+    justify-content: space-between;
+    align-self: flex-end;
+    height: max-content;
     img{
       height: 40px;
     }
